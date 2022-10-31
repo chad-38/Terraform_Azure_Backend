@@ -6,7 +6,7 @@ resource "random_string" "resource_code" {
 }
 
 # Import Resource Group if using Azure Sandbox
-resource "azurerm_resource_group" "guru" {
+resource "azurerm_resource_group" "rg" {
   #name     = "<RESOURCE_GROUP>"
   #location = "<LOCATION>"
   #tags     = {
